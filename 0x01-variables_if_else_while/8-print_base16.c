@@ -16,4 +16,4 @@ int main(void)
 		putcher(letter);
 
 	putcher('\n');
-	return (0);
+}	return (0);
