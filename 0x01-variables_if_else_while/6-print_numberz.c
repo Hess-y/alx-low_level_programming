@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints all single digit numbers of base 10 starting from 0 using putc           har and without char
+ * main - prints all single digit numbers of base 10 from 0 using putchar only
  *
  * Return: 0
  */
