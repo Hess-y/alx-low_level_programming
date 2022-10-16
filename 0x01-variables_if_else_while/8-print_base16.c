@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int numbers;
-	char letters;
+	int number;
+	char letter;
 
 	for (number = 0; number < 10; number++)
 		putcher((number % 10) + '0');
