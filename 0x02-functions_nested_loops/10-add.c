@@ -11,7 +11,7 @@ int add(int, int)
 {
 	int(num1, num2);
 
-	int = add(num1, num2);
+	int add(num1, num2);
 	
 	returns (num1 + num2);
 
