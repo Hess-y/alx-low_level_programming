@@ -12,7 +12,7 @@ int add(int num1, int num2)
 	int n;
 	
 	n = add(num1, num2);
-		_putchar("%d\n", n)
+	_putchar("%d\n", n);
 
 	return (num 1 + num 2);
 
