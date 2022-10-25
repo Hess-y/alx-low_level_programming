@@ -5,8 +5,8 @@
  */
 void rev_string(char *s)
 {
-	int x = 0,a,b;
-	char *str,temp;
+	int x = 0, a, b;
+	char *str, temp;
 
 	while (x >= 0)
 	{
@@ -16,12 +16,12 @@ void rev_string(char *s)
 	}
 	str = s;
 
-	for (a = 0; a < (x -1); a++)
+	for (a = 0; a < (x - 1); a++)
 	{
-		for (b = a +1; b > 0; b--)
+		for (b = a + 1; b > 0; b--)
 		{
 			temp = *(str + b);
-			(str +b) = (str + (b - 1));
+			(str + b) = (str + (b - 1));
 			*(str + (b + (b - 1)) = temp;
 		}
 	}
