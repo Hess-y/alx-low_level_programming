@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strcat- appends the src string to the dest string,
- * overwriting the terminating null byte (\0) at the end of dest, 
+ * overwriting the terminating null byte (\0) at the end of dest,
  * and then adds a terminating null byte
  * @dest: destination
  * @src: the pointer to dest
@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src)
 	}
 	while (count2 >= 0)
 	{
-		*(dest + count) =*(src + count2);
+		*(dest + count) = *(src + count2);
 		if (*(src + count2) == '\0')
 			break;
 		count++;
