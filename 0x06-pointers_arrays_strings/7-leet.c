@@ -2,9 +2,9 @@
 /**
  * leet -  encodes a string into 1337.
  * @s: string to encode
- * Return: address of a
+ * Return: address of s
  */
-char *leet(char *)
+char *leet(char *s)
 {
 	int x. y;
 	char a[] = "aAeEoOtTlL";
