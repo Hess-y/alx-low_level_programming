@@ -2,16 +2,16 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  * @str: input string
- * Return: str
+ * Return: char
  */
 char *string_toupper(char str)
 {
 	int count = 0;
 
-	while (*(str + count) != '\0')
+	while (*(str + count))
 	{
-		if ((*(str + count) >= 97) && (*(str + count) <= 122))
-			*(str + count) = *(str + count) - 32;
+		if (*(str + count) >= 'A' && *(str + count) <= 'z')
+			*(str + count) -= 'a' - 'A';
 		count++;
 	}
 	return (str);
