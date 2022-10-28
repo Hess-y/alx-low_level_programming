@@ -4,7 +4,7 @@
  * @str: input string
  * Return: char
  */
-char *string_toupper(char str)
+char *string_toupper(char *str)
 {
 	int count = 0;
 
