@@ -8,15 +8,20 @@
  */
 int is_prime(unsigned int n, unsigned int c)
 {
-	if (n % c == 0)
+	if (c & n == 0)
 	{
-		if (n == c)
-			return (1);
-		else
-			return (0);
+		return (0);
 	}
-	return (0 + is_prime(n, c + 1));
+	else if (c / 2 > n)
+	{
+		return (is_prime(n + 2, c));
+	}
+	else
+	{
+		return (1);
+	}
 }
+
 /**
  * is_prime_number - detects if input is a prime number
  * @n: input number
@@ -24,11 +29,12 @@ int is_prime(unsigned int n, unsigned int c)
  */
 int is_prime_number(int n)
 {
-	if (n == 0)
+	if ((!(n % 2) && n != 2) || n < 2)
+	{
 		return (0);
-	if (n < 0)
-		return (0);
-	if (n == 1)
-		return (0);
-	return (is_prime(n, 2));
+	}
+	else
+	{
+		return (is_prime(3, n));
+	}
 }
