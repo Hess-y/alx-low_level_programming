@@ -43,7 +43,7 @@ char *argstostr(int ac, char **av)
 		{
 			a[z] = av[x][y];
 
-			k++;
+			z++;
 		}
 		a[z] = '\n';
 		z++;
