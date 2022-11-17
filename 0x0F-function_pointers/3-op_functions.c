@@ -27,6 +27,18 @@ int op_sub(int a, int b)
 }
 
 /**
+  * op_mul - multiplies two integers
+  * @a: first integer
+  * @b: second integer
+  *
+  * Return: multiplication of a and b
+  */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+
+/**
   * op_div - divide two integers
   * @a: first integer
   * @b: second integer
