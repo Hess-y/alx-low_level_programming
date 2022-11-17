@@ -4,8 +4,8 @@
 
 /**
   * main - contains main function only
-  * @argc: integer to print
-  * @argv: character to print
+  * @argc: number of argument
+  * @argv: array of argument
   *
   * Return: 0
   */
